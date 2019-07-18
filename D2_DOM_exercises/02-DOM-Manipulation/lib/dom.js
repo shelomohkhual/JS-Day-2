@@ -14,13 +14,14 @@ module.exports = function runChallenges(check) {
   //       Make the function getEmail() return it
   const getEmail = () => {
     // TODO: return the email
+    return document.querySelector("#email").value;
   };
 
   // /!\ DO NOT CHANGE THIS LINE - TEST PURPOSES
   const borisesEmail = getEmail();
 
   // Ex 2. Change the content of the email input by writing your own email address
-
+  var document.querySelector("#email").value = "shelmoh@shelomoh.com";
 
   // Ex 3. Replace the email hint (next to the input) with 'This is my email now'
   //       The text should be emphasized using a <strong> tag
